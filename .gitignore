@@ -1,0 +1,16 @@
+.gradle/
+build/
+*/build/
+app/build/
+*/app/build/
+
+.idea/
+*.iml
+*.ipr
+*.iws
+local.properties
+.navigation/
+
+*.log
+.DS_Store
+captures/
