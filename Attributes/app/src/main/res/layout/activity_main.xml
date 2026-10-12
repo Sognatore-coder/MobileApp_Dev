@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/edit_text_target"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sample Text"
+            android:minHeight="48dp"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Цвет Текста -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="12dp">
+            <Button
+                android:id="@+id/btn_black_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginRight="8dp"
+                android:text="Черный текст" />
+            <Button
+                android:id="@+id/btn_red_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Красный текст" />
+        </LinearLayout>
+
+        <!-- Размер Текста -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="12dp">
+            <Button
+                android:id="@+id/btn_size_8sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginRight="8dp"
+                android:text="Размер - 8sp" />
+            <Button
+                android:id="@+id/btn_size_24sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Размер - 24sp" />
+        </LinearLayout>
+
+        <!-- Цвет Фона -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btn_white_bg"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginRight="8dp"
+                android:text="Белый фон" />
+            <Button
+                android:id="@+id/btn_yellow_bg"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Желтый фон" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
