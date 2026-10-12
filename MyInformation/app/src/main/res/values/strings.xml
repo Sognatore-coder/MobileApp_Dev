@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Information</string>
+    <string name="full_name">Беседин Кирилл</string>
+    <string name="title_dev">Backend Developer </string>
+    <string name="phone_number">+00 (00) 000 000</string>
+    <string name="social_handle">\@Kid_dev</string>
+    <string name="email_address">example@gmail.com</string>
+</resources>
